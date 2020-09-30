@@ -1,0 +1,214 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #fff;
+    color: black;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    width: 96%;
+    max-width: 1500px;
+    margin: auto;
+}
+
+
+/* Nav */
+.main-nav {
+    background: #5D648E;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px; 
+    margin-top: 5px;
+    font-size: 17px;
+    color: #fff;
+}
+
+.main-nav ul{
+    display: flex;
+}
+
+.main-nav ul.main-menu {
+    flex: 1;
+}
+
+.main-nav ul li {
+    padding-left: 10px;
+}
+
+.main-nav ul li a:hover {
+    border-bottom: 0.5px solid #fff;
+}
+
+.main-nav ul li a {
+    padding-bottom: 2px;
+}
+
+.showcase .logo {
+    width: auto;
+}
+
+.showcase div {
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    background: #f1f2f3;
+    text-align: center;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.showcase div a{
+    color: #555506;
+    font-weight: bold;
+}
+
+.showcase form a {
+    color:white;
+    width: 20%;
+    background: #4B8DF8;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 3px;
+    margin-left: 0;
+}
+
+.showcase form input {
+    width: 90%;
+    padding: 3px;
+    margin-left: 20px;
+}
+
+.showcase form {
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+.showcase .indian_logo {
+    width: auto;
+}
+
+.showcase {
+    margin-bottom: 10px;
+}
+
+.recent h3 {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    background-color: #5b628b;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 7px;
+}
+
+.recent ul {
+    border-top: 1px dashed #5b628b;
+    padding-top: 12px;
+    padding-bottom: 5px;
+}
+
+.recent ul li {
+    padding-left: 20px;
+    color: #423B3B;
+}
+
+.recent ul li a{
+    color: #555506;
+}
+
+.recent{
+    border-bottom: 1px dashed #5b628b;
+}
+
+.all-movies {
+    margin-top: 10px;
+    border-bottom: 1px dashed #5b628b;
+    padding-bottom: 5px;
+}
+.all-movies div {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    background-color: #5b628b;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 7px;
+}
+
+.all-movies div p {
+    font-weight: normal;
+}
+
+.all-movies ul li {
+    border-top: 1px dashed #5b628b;
+    color:#555506;
+    padding-top: 5px;
+    padding-left: 20px;
+}
+
+.more {
+    text-align: right;
+    background: #5b628b;
+    margin-left: 90%;
+    border-radius: 6px;
+    color: white;
+}
+
+.MP4Mania {
+    color: white;
+    font-weight: bold;
+    background-color: #5b628b;
+    padding-top: 10px;
+    padding-left: 9px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+
+.donation a {
+    color: #555506;
+    font-weight: bold;
+}
+
+.donation {
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    background: #f1f2f3;
+    text-align: center;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+footer a {
+    color: white;
+    font-weight: bold;
+}
+
+footer {
+    background: #5D648E;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px; 
+    margin-top: 5px;
+    font-size: 17px;
+    text-align: center;
+}
